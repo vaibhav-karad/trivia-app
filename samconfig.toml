@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "ttrivia-app"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-crgaylltq4r9"
+s3_prefix = "ttrivia-app"
+region = "ap-south-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+image_repositories = []
